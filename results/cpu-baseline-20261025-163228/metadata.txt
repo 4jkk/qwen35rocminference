@@ -1,0 +1,11 @@
+Benchmark: CPU inference
+Date: 2026-10-25T16:32:28+05:30
+Model: /home/akk/Projects/qwen-inference/models/Qwen3.5-4B.Q4_K_M.gguf
+CPU threads: 6
+Runs: 3
+Context size: 512
+Prediction tokens: 128
+Batch size: 32
+Microbatch size: 1
+GPU layers: 0
+Prompt: Explain how GPU inference works and why memory bandwidth matters.

@@ -1,0 +1,18 @@
+GPU benchmark summary
+Results directory: /home/akk/Projects/qwen-inference/results/gpu-baseline-20261025-123928
+
+Run 1
+0.00.628.267 I load_tensors: offloaded 33/33 layers to GPU
+0.32.637.603 I slot print_timing: id  0 | task 0 | prompt eval time =    4123.78 ms /    24 tokens (  171.82 ms per token,     5.82 tokens per second)
+0.32.637.606 I slot print_timing: id  0 | task 0 |        eval time =   26281.77 ms /   128 tokens (  206.94 ms per token,     4.83 tokens per second)
+
+Run 2
+0.00.627.270 I load_tensors: offloaded 33/33 layers to GPU
+0.32.612.278 I slot print_timing: id  0 | task 0 | prompt eval time =    4115.32 ms /    24 tokens (  171.47 ms per token,     5.83 tokens per second)
+0.32.612.281 I slot print_timing: id  0 | task 0 |        eval time =   26265.87 ms /   128 tokens (  206.82 ms per token,     4.84 tokens per second)
+
+Run 3
+0.00.763.073 I load_tensors: offloaded 33/33 layers to GPU
+0.32.605.212 I slot print_timing: id  0 | task 0 | prompt eval time =    4115.13 ms /    24 tokens (  171.46 ms per token,     5.83 tokens per second)
+0.32.605.215 I slot print_timing: id  0 | task 0 |        eval time =   26257.42 ms /   128 tokens (  206.75 ms per token,     4.84 tokens per second)
+
