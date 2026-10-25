@@ -1,0 +1,13 @@
+Benchmark: GPU inference
+Date: 2026-10-25T12:39:28+05:30
+llama.cpp CLI: /home/akk/Projects/qwen-inference/misc/llama.cpp/build-gfx1032-test/bin/llama-cli
+Model: /home/akk/Projects/qwen-inference/models/Qwen3.5-4B.Q4_K_M.gguf
+Device: ROCm0
+Runs: 3
+Context size: 512
+Prediction tokens: 128
+Batch size: 32
+Microbatch size: 1
+Flash Attention: off
+Prompt: Explain how GPU inference works and why memory bandwidth matters.
+
