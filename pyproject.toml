@@ -1,7 +1,7 @@
 [project]
 name = "qwen-inference"
 version = "0.1.0"
-description = "Add your description here"
+description = "Reproducible CPU and AMD ROCm benchmarks for local llama.cpp inference"
 readme = "README.md"
 authors = [
     { name = "ajthkmr", email = "ajiiitth@gmail.com" }
@@ -21,3 +21,6 @@ qwen-inference = "qwen_inference:main"
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
